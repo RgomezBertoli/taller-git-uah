@@ -84,3 +84,17 @@ Vamos a realizar los siguientes pasos:
 - Enviamos este guardado a nuestro repositorio remoto
 - Nuestr@ compañer@ se descarga ese cambio a su repositorio local
 - Ahora nuestr@ compañer@ modificará ese fichero y los subirá los cambios para que nos los descarguemos
+
+## Conflictos
+
+Cuando varias personas trabajan sobre un mismo proyecto es muy común que en algunas ocasiones varias de estas personas modifiquen las mismas lineas dentro de un archivo.
+
+En estos casos, GIT no quiere tomar partido en la decisión de cual es la versión correcta y genera un conflicto para que los responsables se den cuenta de que han tocado las mismas lineas y que deben llegar a un acuerdo y generar una versión en la que todos estén de acuerdo.
+
+En muchas ocasiones, estos conflictos son generados de forma indirecta debido a diferentes criterios de estructura o formateo del código; por lo que es importante que según se abra un proyecto se acuerden estas normas para evitar generar conflictos innecesarios.
+
+### Ejercicio
+
+Vamos a poner en práctica como podemos resolver los conflictos y para ello vamos a usar nuestro maravilloso VSCode, ya que dispone de una herramienta dedicada a ello. Os vamos a hacer una demostración.
+
+![DEMO](https://media3.giphy.com/media/toXKzaJP3WIgM/giphy.gif)
